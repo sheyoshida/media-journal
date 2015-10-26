@@ -6,7 +6,7 @@ This is version 1.0 of my C4Q Unit 2 homework project. We were given two weeks t
 
 # The App: 
 
-Throughout the process, I was mindful of adopting an MVP strategy which ensured that the first round of features were practical. I also made an effort to ensure that our UI experience was unique and incorporated collection view cells, a fun [folding tab bar controller](https://github.com/Yalantis/FoldingTabBar.iOS) and custom animation with 
+Throughout the process, I was mindful about our MVP which ensured that the first round of features were streamlined and practical. I also made an effort to ensure that our UI experience was unique and incorporated collection view cells, a fun [folding tab bar controller](https://github.com/Yalantis/FoldingTabBar.iOS) and custom animation with 
 [Facebook's POP](https://github.com/facebook/pop) files. To keep our data from vanishing I learned how easy it is to 
 use [Parse](https://github.com/ParsePlatform/Parse-SDK-iOS-OSX). Later, my team incorporated the [Facebook SDK](https://github.com/facebook/facebook-ios-sdk) which adds a social element; our users can share their new discoveries. 
 
