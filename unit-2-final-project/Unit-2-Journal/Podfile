@@ -1,0 +1,9 @@
+pod 'FBSDKCoreKit', '~> 4.7'
+pod 'FBSDKShareKit', '~> 4.7'
+pod 'FBSDKLoginKit', '~> 4.7'
+pod 'Parse'
+pod 'RestKit/Testing', '~> 0.24.0'
+pod 'FoldingTabBar', '~> 1.0.1’
+pod 'pop', '~> 1.0'
+
+

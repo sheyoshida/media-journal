@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Akkurat Bold.otf">
+            <string>Akkurat-Bold</string>
+        </mutableArray>
+        <mutableArray key="Akkurat Regular.otf">
+            <string>Akkurat</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="SearchAPITableViewCellIdentifier" rowHeight="101" id="KGk-i7-Jjw" customClass="SearchAPITableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="340" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="340" height="124.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Fq8-dI-Pdu">
+                        <rect key="frame" x="18" y="33" width="60" height="60"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="TzC-rK-Lse"/>
+                            <constraint firstAttribute="height" constant="60" id="VZE-5H-hlD"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Author/Director/Artist" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9p-St-OV6">
+                        <rect key="frame" x="86" y="62" width="254" height="46"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="Akkurat" family="Akkurat" pointSize="14"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE" lineBreakMode="wordWrap" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sl4-bL-ILp">
+                        <rect key="frame" x="86" y="16" width="254" height="46"/>
+                        <animations/>
+                        <fontDescription key="fontDescription" name="Akkurat-Bold" family="Akkurat" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <animations/>
+                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="y9p-St-OV6" secondAttribute="bottom" constant="8" id="77R-9I-uAO"/>
+                    <constraint firstItem="Fq8-dI-Pdu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="BKX-nf-3UF"/>
+                    <constraint firstItem="Fq8-dI-Pdu" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Gzs-0c-Laa"/>
+                    <constraint firstItem="y9p-St-OV6" firstAttribute="leading" secondItem="Fq8-dI-Pdu" secondAttribute="trailing" constant="8" id="MQL-JE-6d4"/>
+                    <constraint firstItem="y9p-St-OV6" firstAttribute="top" secondItem="Sl4-bL-ILp" secondAttribute="bottom" constant="14" id="V0g-po-TYt"/>
+                    <constraint firstItem="y9p-St-OV6" firstAttribute="top" secondItem="Sl4-bL-ILp" secondAttribute="bottom" id="bHZ-Z7-z2l"/>
+                    <constraint firstItem="Sl4-bL-ILp" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="8" id="kgx-qh-5UO"/>
+                    <constraint firstItem="y9p-St-OV6" firstAttribute="top" secondItem="Sl4-bL-ILp" secondAttribute="bottom" id="le4-IJ-Wvq"/>
+                    <constraint firstItem="Sl4-bL-ILp" firstAttribute="leading" secondItem="Fq8-dI-Pdu" secondAttribute="trailing" constant="8" id="vU8-rv-A7q"/>
+                    <constraint firstItem="y9p-St-OV6" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="8" id="xks-nZ-DDK"/>
+                    <constraint firstItem="Sl4-bL-ILp" firstAttribute="height" secondItem="y9p-St-OV6" secondAttribute="height" id="y4H-0j-aNh"/>
+                    <constraint firstItem="Sl4-bL-ILp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="zAg-1w-DVm"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="V0g-po-TYt"/>
+                        <exclude reference="bHZ-Z7-z2l"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <animations/>
+            <accessibility key="accessibilityConfiguration" identifier=""/>
+            <connections>
+                <outlet property="artworkImage" destination="Fq8-dI-Pdu" id="vEj-X3-ezi"/>
+                <outlet property="authorArtistDirectorLabel" destination="y9p-St-OV6" id="8CJ-K5-qPV"/>
+                <outlet property="titleLabel" destination="Sl4-bL-ILp" id="npm-fk-f0W"/>
+            </connections>
+            <point key="canvasLocation" x="622" y="497.5"/>
+        </tableViewCell>
+    </objects>
+</document>
