@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DF9940A3EC27BE56DF13C9D1F3F55CBF56F90E10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C18DF70B482FA7D136B65835471F824D97A48F1D" : 0,
+    "DF9940A3EC27BE56DF13C9D1F3F55CBF56F90E10" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "60A805E5-FC95-4B06-9DEA-9B9DC5866406",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C18DF70B482FA7D136B65835471F824D97A48F1D" : "",
+    "DF9940A3EC27BE56DF13C9D1F3F55CBF56F90E10" : "unit-2-final-project\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Unit-2-Journal",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Unit-2-Journal\/Unit-2-Journal.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/sheyoshida\/media-journal.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C18DF70B482FA7D136B65835471F824D97A48F1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Jamaal51\/unit-2-final-project.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DF9940A3EC27BE56DF13C9D1F3F55CBF56F90E10"
+    }
+  ]
+}

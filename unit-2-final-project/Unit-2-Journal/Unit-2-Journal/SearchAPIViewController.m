@@ -15,7 +15,7 @@
 #import "TabBarViewController.h"
 #import "WishListTableViewController.h"
 #import <Parse/Parse.h>
-#import "JournalPost.h" // for parse
+#import "JournalPost.h"
 
 @interface SearchAPIViewController ()
 <
