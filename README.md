@@ -8,7 +8,7 @@ This is version 1.0 of my C4Q Unit 2 homework project. We were given two weeks t
 
 Throughout the process, I was mindful of adopting an MVP strategy which ensured that the first round of features were practical. I also made an effort to ensure that our UI experience was unique and incorporated collection view cells, a fun [folding tab bar controller](https://github.com/Yalantis/FoldingTabBar.iOS) and custom animation with 
 [Facebook's POP](https://github.com/facebook/pop) files. To keep our data from vanishing I learned how easy it is to 
-use [Parse](https://github.com/ParsePlatform/Parse-SDK-iOS-OSX). Later, my team incorporated the [Facebook SDK](https://github.com/facebook/facebook-ios-sdk) which adds a social element; users can share their new discoveries. 
+use [Parse](https://github.com/ParsePlatform/Parse-SDK-iOS-OSX). Later, my team incorporated the [Facebook SDK](https://github.com/facebook/facebook-ios-sdk) which adds a social element; our users can share their new discoveries. 
 
 ![the app](https://cloud.githubusercontent.com/assets/12483412/10743260/523336a6-7c08-11e5-9b4b-dd312d2de2b3.png)
 
@@ -19,7 +19,7 @@ I get really excited about project/product planning and used Keynote to create m
 
 # Next Steps: 
 
-Eventually, I would love to add additional sorting features so that users can determine exactly which books, films and albums were their favorites at the end of the year. Since we already have Facebook sharing enabled, I would like to refine and expand that functionality. 
+Eventually, I would love to add sorting features so that users can determine exactly which books, films and albums were their favorites at the end of the year. Since we already have Facebook sharing enabled, I would like to refine and expand that functionality. 
 
 ![the future](https://cloud.githubusercontent.com/assets/12483412/10743617/92043d0a-7c0a-11e5-8a4c-280a7164929b.png)
  
