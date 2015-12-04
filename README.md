@@ -1,6 +1,8 @@
 # The Goal: 
 
-This is version 1.0 of my C4Q Unit 2 homework project. We were given two weeks to [create a journal that would log entries, incorporate APIs and allow data to persist](https://github.com/accesscode-2-2/unit-2-final-project). We were inspired by year end lists and wanted to build an app that would allow our users to record and reflect upon all of the books, movies and albums that they experience throughout the year. We also wanted to create a way for users to keep track of things they wanted to remember later on and added a "wishlist" feature. 
+This is version 1.0 of my C4Q Unit 2 homework project. We were given two weeks to [create a journal that would log entries, incorporate APIs and allow data to persist](https://github.com/accesscode-2-2/unit-2-final-project). 
+
+We were inspired by year end lists and wanted to build an app that would allow our users to record, rate and reflect upon all of the books, movies and albums that they consume. We also created a "wishlist" feature so that users could keep notes on what to read/watch/listen to next. 
 
 ![project inspiration](https://cloud.githubusercontent.com/assets/12483412/10742773/48a9f55a-7c05-11e5-8a7c-003494c9cb22.png)
 
@@ -19,7 +21,7 @@ I get really excited about project/product planning and used Keynote to create m
 
 # Next Steps: 
 
-Eventually, I would love to add sorting features so that users can determine exactly which books, films and albums were their favorites at the end of the year. Since we already have Facebook sharing enabled, I would like to refine and expand that functionality. 
+Eventually, I would love to add a sorting feature so that users can determine exactly which books, films and albums were their favorites at the end of the year. Since we already have Facebook sharing enabled, I would like to refine and expand that functionality. 
 
 ![the future](https://cloud.githubusercontent.com/assets/12483412/10743617/92043d0a-7c0a-11e5-8a4c-280a7164929b.png)
  
